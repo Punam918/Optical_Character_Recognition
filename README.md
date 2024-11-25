@@ -26,57 +26,13 @@ This project involves implementing Optical Character Recognition (OCR) using Pyt
    sudo apt install tesseract-ocr
    ```
 
-2. **Required Libraries:**
-   ```python
-   import cv2
-   import pytesseract
-   import numpy as np
-   from matplotlib import pyplot as plt
-   from ultralytics import YOLO
-   ```
 
-3. **Key Steps in the Notebook:**
+2. **Key Steps in the Notebook:**
    - Load and display images using OpenCV.
    - Convert images to grayscale for better OCR accuracy.
    - Apply image processing techniques like erosion and dilation.
    - Perform text extraction with Tesseract.
    - Use YOLOv8 for object detection in complex images.
 
----
 
-### **Example Code Snippets:**
 
-**1. Loading and displaying an image:**
-   ```python
-   img = cv2.imread('/path/to/image.jpg')
-   cv2.imshow('Image', img)
-   cv2.waitKey(0)
-   ```
-
-**2. Text extraction using Tesseract:**
-   ```python
-   ocr_result = pytesseract.image_to_string(img)
-   print(ocr_result)
-   ```
-
-**3. Object detection using YOLOv8:**
-   ```python
-   model = YOLO("yolov8m.pt")
-   result = model.predict('/path/to/traffic.jpg')
-   ```
-
----
-
-### **Output:**
-The project successfully detects and recognizes text from images and identifies objects in populated scenes, such as traffic images.
-
----
-
-### **References:**
-- [Tesseract OCR Documentation](https://github.com/tesseract-ocr/tesseract)
-- [YOLOv8](https://docs.ultralytics.com/)
-
----
-
-### **Author:**
-[Your Name or Organization]
