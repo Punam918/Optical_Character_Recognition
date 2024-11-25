@@ -34,5 +34,25 @@ This project involves implementing Optical Character Recognition (OCR) using Pyt
    - Perform text extraction with Tesseract.
    - Use YOLOv8 for object detection in complex images.
 
+### **Object Detection**
+
+![Alt text](https://raw.githubusercontent.com/Punam918/Optical_Character_Recognition/refs/heads/master/images/detected_image.png)
+
+
+### **Original Textfile**
+
+![Alt text](https://raw.githubusercontent.com/Punam918/Optical_Character_Recognition/refs/heads/master/images/textfile_original.png)
+
+
+### **ConvertedToGray**
+
+![Alt text](https://raw.githubusercontent.com/Punam918/Optical_Character_Recognition/refs/heads/master/images/togray.png)
+
+### **ToWords**
+![Alt text](https://raw.githubusercontent.com/Punam918/Optical_Character_Recognition/refs/heads/master/images/towords.png)
+
+
+
+
 
 
